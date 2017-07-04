@@ -5,12 +5,11 @@
   <title>File Metadata Microservice</title>
 </head>
 <body>
-<form>
   Submit a file to view its filesize. <br/> <br/>
+  <form action="/" method="post" enctype="multipart/form-data">
   <span>
-  <button name="file" value="true">Choose File</button>
-   No File Uploaded
-  <button name="query" value="true">Submit Query</button>
+  <input type="file" name="file"></input>
+  <input type="submit" ></input>
   </span>
 </form>
 
